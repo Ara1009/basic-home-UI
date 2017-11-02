@@ -12,6 +12,7 @@
 		F262EDB31FA85C05004D43C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F262EDB11FA85C05004D43C9 /* Main.storyboard */; };
 		F262EDB51FA85C05004D43C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F262EDB41FA85C05004D43C9 /* Assets.xcassets */; };
 		F262EDB81FA85C05004D43C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F262EDB61FA85C05004D43C9 /* LaunchScreen.storyboard */; };
+		F262EDC61FAAF0E3004D43C9 /* pexels-photo-243752.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F262EDC51FAAF0E3004D43C9 /* pexels-photo-243752.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F262EDB41FA85C05004D43C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F262EDB71FA85C05004D43C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F262EDB91FA85C05004D43C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F262EDC51FAAF0E3004D43C9 /* pexels-photo-243752.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pexels-photo-243752.jpg"; path = "../../pexels-photo-243752.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F262EDB41FA85C05004D43C9 /* Assets.xcassets */,
 				F262EDB61FA85C05004D43C9 /* LaunchScreen.storyboard */,
 				F262EDB91FA85C05004D43C9 /* Info.plist */,
+				F262EDC51FAAF0E3004D43C9 /* pexels-photo-243752.jpg */,
 			);
 			path = firstproject;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				F262EDB81FA85C05004D43C9 /* LaunchScreen.storyboard in Resources */,
 				F262EDB51FA85C05004D43C9 /* Assets.xcassets in Resources */,
+				F262EDC61FAAF0E3004D43C9 /* pexels-photo-243752.jpg in Resources */,
 				F262EDB31FA85C05004D43C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
