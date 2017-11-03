@@ -15,6 +15,7 @@
 		F262EDC61FAAF0E3004D43C9 /* pexels-photo-243752.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F262EDC51FAAF0E3004D43C9 /* pexels-photo-243752.jpg */; };
 		F262EDCA1FAB7082004D43C9 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262EDC91FAB7082004D43C9 /* ButtonDesign.swift */; };
 		F262EDCE1FAB7C75004D43C9 /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262EDCD1FAB7C75004D43C9 /* ButtonAnimation.swift */; };
+		F2B36BDD1FABF4F600F1CAB4 /* 23231799_10213480899550678_1493486656_n.png in Resources */ = {isa = PBXBuildFile; fileRef = F2B36BDC1FABF4F600F1CAB4 /* 23231799_10213480899550678_1493486656_n.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F262EDC51FAAF0E3004D43C9 /* pexels-photo-243752.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pexels-photo-243752.jpg"; path = "../../pexels-photo-243752.jpg"; sourceTree = "<group>"; };
 		F262EDC91FAB7082004D43C9 /* ButtonDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
 		F262EDCD1FAB7C75004D43C9 /* ButtonAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
+		F2B36BDC1FABF4F600F1CAB4 /* 23231799_10213480899550678_1493486656_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 23231799_10213480899550678_1493486656_n.png; path = ../../23231799_10213480899550678_1493486656_n.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				F262EDB61FA85C05004D43C9 /* LaunchScreen.storyboard */,
 				F262EDB91FA85C05004D43C9 /* Info.plist */,
 				F262EDC51FAAF0E3004D43C9 /* pexels-photo-243752.jpg */,
+				F2B36BDC1FABF4F600F1CAB4 /* 23231799_10213480899550678_1493486656_n.png */,
 			);
 			path = firstproject;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F262EDB81FA85C05004D43C9 /* LaunchScreen.storyboard in Resources */,
+				F2B36BDD1FABF4F600F1CAB4 /* 23231799_10213480899550678_1493486656_n.png in Resources */,
 				F262EDB51FA85C05004D43C9 /* Assets.xcassets in Resources */,
 				F262EDC61FAAF0E3004D43C9 /* pexels-photo-243752.jpg in Resources */,
 				F262EDB31FA85C05004D43C9 /* Main.storyboard in Resources */,
@@ -329,6 +333,7 @@
 				F262EDBE1FA85C05004D43C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
