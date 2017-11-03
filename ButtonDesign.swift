@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class DesignableButton: UIButton {
+@IBDesignable class ButtonDesign: ButtonAnimation{
 
     @IBInspectable var cornerradius : CGFloat = 2
     

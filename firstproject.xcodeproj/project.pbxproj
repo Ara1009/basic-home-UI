@@ -13,7 +13,8 @@
 		F262EDB51FA85C05004D43C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F262EDB41FA85C05004D43C9 /* Assets.xcassets */; };
 		F262EDB81FA85C05004D43C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F262EDB61FA85C05004D43C9 /* LaunchScreen.storyboard */; };
 		F262EDC61FAAF0E3004D43C9 /* pexels-photo-243752.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F262EDC51FAAF0E3004D43C9 /* pexels-photo-243752.jpg */; };
-		F262EDCA1FAB7082004D43C9 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262EDC91FAB7082004D43C9 /* DesignableButton.swift */; };
+		F262EDCA1FAB7082004D43C9 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262EDC91FAB7082004D43C9 /* ButtonDesign.swift */; };
+		F262EDCE1FAB7C75004D43C9 /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262EDCD1FAB7C75004D43C9 /* ButtonAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		F262EDB71FA85C05004D43C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F262EDB91FA85C05004D43C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F262EDC51FAAF0E3004D43C9 /* pexels-photo-243752.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pexels-photo-243752.jpg"; path = "../../pexels-photo-243752.jpg"; sourceTree = "<group>"; };
-		F262EDC91FAB7082004D43C9 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		F262EDC91FAB7082004D43C9 /* ButtonDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
+		F262EDCD1FAB7C75004D43C9 /* ButtonAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		F262EDA11FA85C05004D43C9 = {
 			isa = PBXGroup;
 			children = (
+				F262EDCC1FAB7C4A004D43C9 /* ButtonControls */,
 				F262EDC81FAB7047004D43C9 /* IBDesignables */,
 				F262EDAC1FA85C05004D43C9 /* firstproject */,
 				F262EDAB1FA85C05004D43C9 /* Products */,
@@ -73,9 +76,17 @@
 		F262EDC81FAB7047004D43C9 /* IBDesignables */ = {
 			isa = PBXGroup;
 			children = (
-				F262EDC91FAB7082004D43C9 /* DesignableButton.swift */,
+				F262EDC91FAB7082004D43C9 /* ButtonDesign.swift */,
 			);
 			name = IBDesignables;
+			sourceTree = "<group>";
+		};
+		F262EDCC1FAB7C4A004D43C9 /* ButtonControls */ = {
+			isa = PBXGroup;
+			children = (
+				F262EDCD1FAB7C75004D43C9 /* ButtonAnimation.swift */,
+			);
+			name = ButtonControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F262EDCE1FAB7C75004D43C9 /* ButtonAnimation.swift in Sources */,
 				F262EDB01FA85C05004D43C9 /* ViewController.swift in Sources */,
 				F262EDAE1FA85C05004D43C9 /* AppDelegate.swift in Sources */,
-				F262EDCA1FAB7082004D43C9 /* DesignableButton.swift in Sources */,
+				F262EDCA1FAB7082004D43C9 /* ButtonDesign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
